@@ -10,6 +10,6 @@ phases:
             - dotnet publish -c release -o ./build_output sampleProject.csproj
 artifacts:
   files:
-    - AspNetCoreWebApplication/build_output/**/*
+    - sampleProject/build_output/**/*
     - scripts/**/*
     - appspec.yml
